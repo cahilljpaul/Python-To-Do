@@ -17,4 +17,6 @@ def add_task():
     """Add a new task"""
     task = input("/ Enter the task: ")
     tasks.append(task)
-    print(f"Task '{task}' added")'''
+    print(f"Task '{task}' added")
+add_task()
+show_tasks()
